@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            border:2px solid black;
+            padding:50px;
+            position:relative;
+            top:100px;
+            left:200px;
+            width:300px;
+            background-color: pink;
+    
+        }
+        
+        #btn:hover{
+
+        }
+        #btn{
+            position: relative;
+            top: 20px;
+            left:40%;
+            padding:10px
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+    <form>
+        <fieldset>
+            <legend>REGISTRATION</legend><br>
+        <label for="user name">first name*</label>
+        <input type="text" placeholder="first name"><br><br>
+        <label for="user name">last name*</label>
+        <input type="text" placeholder="last name" ><br><br>
+
+        <label for="email">email*</label>
+        <input type="text" placeholder="@mail" ><br><br>
+        <label for="password">password*</label>
+        <input type="text" placeholder="*******"><br><br>
+        <label for="gender">gender</label>
+        <input type="radio">male
+        <input type="radio">female<br>
+        
+        <input type="button" id="btn" padding: 10px; font-size: 15px; font-weight: bold; cursor: pointer; value="REGISTER" onclick="button1()">
+        
+
+
+
+
+        </form>
+    </div>
+    <script>
+       function button1(){
+        window.location.href="signin.html";
+       }
+            
+        
+    </script>
+    
+        
+
+    
+</body>
+</html>
